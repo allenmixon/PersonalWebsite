@@ -1,0 +1,389 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	background-color: rgba(255, 214, 179, 0.5);
+
+}
+
+.navbar{
+	position: fixed;
+	top: 0;
+
+	-webkit-display: flex;
+	-webkit-flex-direction: row;
+	-webkit-flex-wrap: nowrap;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(235,211,164,0);
+	width: 100%;
+	height: 90px;
+	z-index: 1;
+	min-width: 950px;
+}
+.nav{
+	display: flex;
+
+	-webkit-display: flex;
+
+	justify-content: right;
+	list-style: none;
+	margin-right: 10%;
+}
+.heading{
+	flex: 1 0 auto;
+	margin-left: 10%;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: bold;
+	font-size: 40px;
+	font-style: italic;
+	text-shadow: 3px 3px #000000;
+}
+
+a{
+	margin: 15px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px #000000;
+	font-size: 18px;
+}
+a:hover{
+	color: #fff;
+}
+li a:hover {
+	text-decoration: underline;
+}
+li{
+	display: inline-flex;
+}
+
+.bullets{
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+.bullets li{
+	font-size: 50px;
+	display: list-item;
+	list-style: none;
+	text-align: center;
+	line-height: 120px;
+	text-transform: uppercase;
+	font-weight: bold;
+	opacity: 0.8;
+	letter-spacing: 5px;
+	text-shadow: 3px 3px  white;
+
+}
+
+#tagline{
+	margin-top: 30px;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 10px;
+}
+
+.leadtxt{
+
+	color: #333;
+	font-weight: 300;
+	font-size: 25px;
+}
+
+.banner-area{
+	position: relative;
+	top: -20px;
+	background-image: url("../images/ocean.jpg");
+	width: 100%;
+	height: 100vh;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding-top: 150px;
+	justify-content: space-around;
+	align-items: center;
+	
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+
+	-webkit-display: flex;
+	-webkit-flex-direction: row;
+	-webkit-flex-wrap: nowrap;
+}
+
+.projects-area{
+	position: relative;
+	top: -42px;
+	background-image: url("../images/ocean2.jpg");
+	width: 100%;
+	height: 100vh;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding-top: 100px;
+	justify-content: space-around;
+	align-items: center;
+
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+
+	-webkit-display: flex;
+	-webkit-flex-direction: row;
+	-webkit-flex-wrap: nowrap;
+
+}
+
+.about-area{
+	position: relative;
+	top: -42px;
+	background-image: url("../images/ocean3.jpg");
+	width: 100%;
+	height: 100vh;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding-top: 100px;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+
+	-webkit-display: flex;
+	-webkit-flex-direction: row;
+	-webkit-flex-wrap: nowrap;
+}
+
+.profile-img{
+	border-radius: 50%;
+	width: 180px;
+	height: 180px;
+	box-shadow: 0 0 20px #000000b3;
+	opacity: 0.9;
+}
+
+.contact-area{
+	position: relative;
+	top: -42px;
+	background-image: url("../images/ocean4.jpg");
+	width: 100%;
+	height: 100vh;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding-top: 100px;
+	justify-content: space-around;
+	align-items: center;
+	padding-bottom: 0px;
+	margin-bottom: -42px;
+
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+
+	-webkit-display: flex;
+	-webkit-flex-direction: row;
+	-webkit-flex-wrap: nowrap;
+}
+
+.banner-part{
+	margin-top: -185px;
+	background-color: rgba(255,255,255,0.5);
+	box-shadow: 0 0 20px #000000b3;
+	border-radius: 8px;
+	padding: 30px 40px;
+	width: 60%;
+	height: 500px;
+	min-width: 800px;
+	max-width: 1200px;
+}
+
+.projects-part{
+	margin-top: -185px;
+	background-color: rgba(255,255,255,0.5);
+	box-shadow: 0 0 20px #000000b3;
+	border-radius: 8px;
+	padding: 30px 40px;
+	width: 1500px;
+	height: 700px;
+
+}
+
+.projects-part p{
+	margin-top: 55px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.projects-part a{
+	margin: 5px;
+	color: #000;
+	text-transform: none;
+	font-weight: normal;
+	text-shadow: none;
+	font-size: 22px;
+	font-style: italic;
+}
+
+textarea{
+	resize: none;
+}
+
+
+h1{
+	color: #333;
+	font-weight: 500;
+}
+p{
+	font-size: 24px;
+	line-height: 50px;
+}
+
+.about-part{
+	margin-top: -185px;
+	background-color: rgba(255,255,255,0.5);
+	box-shadow: 0 0 20px #000000b3;
+	border-radius: 8px;
+	padding: 30px 40px;
+	width: 400px;
+	height: 500px;
+
+}
+
+.about-part a{
+	margin: 8px;
+}
+
+.about-part p{
+	font-size: 18px;
+}
+
+#about-line{
+	width: 90%;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	font-style: italic;
+	line-height: 30px;
+	letter-spacing: 1px;
+
+}
+
+.icon{
+	margin: 0px;
+	padding: 0px;
+	width: 40px;
+	height: 40px;
+	opacity: 0.8;
+}
+
+.contact-form{
+
+	background-color: rgba(255,255,255,0.5);
+	display: block;
+	position: absolute;
+	top: 25%;
+	width: 85%;
+	max-width: 800px;
+	box-shadow: 0 0 20px #000000b3;
+	border-radius: 8px;
+	padding: 30px 40px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.contact-form h1{
+	margin-top: 0px;
+
+}
+
+.form-field{
+	/*border: 1px solid gray;*/
+	margin: 8px 0;
+	padding: 12px;
+}
+
+.form-field label{
+	display: block;
+	text-align: left;
+	color: #333;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.form-field input, textarea{
+	width: 100%;
+	background-color: rgba(255,255,255,0.25);
+}
+
+.form-button{
+	padding-top: 20px;
+}
+
+.form-button input{
+	background-color: rgba(255,255,255,0.25);
+	width: 140px;
+	height: 40px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.footer{
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	margin: 0px;
+	padding: 0px;
+	/*border-style: solid;*/
+	justify-content: space-around;
+	/*border-color: #000;
+	border-width: 2px;*/
+}
+
+.footer p{
+	font-size: 14px;
+	/*background-color: #fff;
+	border-style: solid;
+	border-color: #000;
+	border-width: 2px;*/
+	margin: 0px;
+	padding: 0px;
+}
+
+#footerlink{
+	font-size: 16px;
+	color: #000;
+}
+
+
+@media screen and (max-width: 1200px) {
+	p{
+		font-size: 22px;
+		line-height: 30px;
+	}
+@media screen and (max-width: 715px) {
+	p{
+		font-size: 14px;
+		line-height: 22px;
+	}
+}
